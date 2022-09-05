@@ -1,0 +1,174 @@
+body{
+      background-color: hsl(30, 38%, 92%);
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Fraunces;
+}
+    .container{
+      display: flex;
+      width: 550px;
+      height: 400px;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 12px;
+    }
+    .container img{
+      width: 50%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 12px 0 0 12px;
+    }
+    .content{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 20px;
+    }
+    .content .con-wrapper>h2{
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 12px;
+      color:hsl(228, 12%, 48%);
+      letter-spacing: 5px;
+    }
+    .content .con-wrapper>h1{
+      margin-top: -8px;
+      font-weight: 700;
+      font-size: 2.2rem;
+      color:hsl(212, 21%, 14%);
+      word-spacing:-5px;
+      line-height: 0.9;
+      margin-top: 20px;
+      font-family: Fraunces;
+    }
+    .content .con-wrapper>p{
+      color: hsl(228, 12%, 48%);
+      line-height: 1.5;
+      font-size: 13px;
+      font-weight: 500;
+      font-family: Montserrat;
+    }
+    .content .price{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: -25px;
+      height: 100px;
+    }
+    .content .price h1{
+      font-size: 2.2rem;
+      color: hsl(158, 36%, 37%);
+      font-family:sans-serif;
+    }
+    .content .price>p{
+      font-size: 0.8rem;
+      margin-left: 20px;
+      color: hsl(212, 21%, 14%);
+      text-decoration:line-through;
+      font-family: Montserrat;
+    }
+    button{
+      color: hsl(0, 0%, 100%);
+      background-color: hsl(158, 36%, 37%);
+      text-align: center;
+      padding: 15px 30px 15px 30px;
+      margin-top: -15px;
+      border-radius: 8px;
+      border: none;
+      font-family: Montserrat;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @media (max-width:720px) {
+    .container{
+      display: flex;
+      width: 90%;
+      height: 90%;
+      background-color: hsl(0, 0%, 100%);
+      flex-direction: column;
+      border-radius: 12px;
+    }
+     .container img{
+      width: 100%;
+      height: 40%;
+      object-fit: cover;
+      border-radius: 12px 12px 0 0;
+    }
+    .content{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 20px;
+    }
+    .content .con-wrapper>h2{
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 12px;
+      color:hsl(228, 12%, 48%);
+      letter-spacing: 5px;
+    }
+    
+    .content .con-wrapper>h1{
+      font-weight: 700;
+      font-size: 2.2rem;
+      color:hsl(212, 21%, 14%);
+      word-spacing:-5px;
+      line-height: 0.9;
+      width: 90%;
+      margin-top: 20px;
+      font-family: Fraunces;
+    }
+    .content .con-wrapper>p{
+      color: hsl(228, 12%, 48%);
+      line-height: 1.5;
+      font-size: 13px;
+      font-weight: 500;
+      font-family: Montserrat;
+      width: 85%;
+    }
+    
+    .content .price{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: -15px;
+      height: 100px;
+    }
+    .content .price h1{
+      font-size: 2.2rem;
+      color: hsl(158, 36%, 37%);
+      font-family:sans-serif;
+    }
+    .content .price>p{
+      font-size: 0.8rem;
+      margin-left: 20px;
+      color: hsl(212, 21%, 14%);
+      text-decoration:line-through;
+      font-family: Montserrat;
+    } 
+    button{
+      color: hsl(0, 0%, 100%);
+      background-color: hsl(158, 36%, 37%);
+      text-align: center;
+      padding: 15px 30px 15px 30px;
+      margin-top: -15px;
+      border-radius: 8px;
+      border: none;
+      font-family: Montserrat;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 88%;
+    }
+    }
